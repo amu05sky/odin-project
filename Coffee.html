@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/landing_page.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <title>Coffee</title>
+    <style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><link rel="icon" href="http://127.0.0.1:5500/about.html"><link href="./Coffee_files/main.css" rel="stylesheet" type="text/css" media="all"></head>
+    <body data-new-gr-c-s-check-loaded="14.1086.0" data-gr-ext-installed="">
+        <div class="container">
+            
+            <nav class="bx navbar">
+                <div class="header-logo">
+                    <img src="./Coffee_files/coffee logo.jpg">
+                </div>
+                <div class="header-link">
+                    <a href="http://127.0.0.1:5500/landing_page.html#">About</a>
+                    <a href="http://127.0.0.1:5500/landing_page.html#">Shop</a>
+                    <a href="http://127.0.0.1:5500/landing_page.html#">Contact</a>                    
+                </div>
+            </nav>
+            
+            <div class="bx hero">
+                <div class="hero-1 hero-cta">
+                    <h1>This is a Coffee Lover Page</h1>
+                    <p>Coffee A Day Keeps Stress Away.
+                    </p>
+                    <button type="button">Sign Up</button>
+                </div>
+                <div class="hero-1 hero-image">
+                    <img src="./Coffee_files/Coffee.png" alt="shiba">
+                </div>
+            </div>
+
+            <div class="bx content">
+                <h2>Types of Coffee</h2>
+                <div class="content-info">
+                    <div>
+                        <img src="./Coffee_files/bean types.jpg">
+                        <p>  Beans</p>
+                    </div>
+                    <div>
+                        <img src="./Coffee_files/roasts.jpg">
+                        <p>Roasts</p>
+                    </div>
+                    <div>
+                        <img src="./Coffee_files/drinks.png">
+                        <p>Drinks</p>
+                    </div>
+                    <div>
+                        <img src="./Coffee_files/Flavour_wheel.png">
+                        <p>Flavours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bx quote">
+                <p>"What goes best with a cup of coffee? Another cup of coffee"
+                </p>
+                <b>
+                    --Henry Rollins
+                </b>
+            </div>
+            <div class="bx sign-up">
+                <div class="sign-item signs-text">
+                    <h3>Keep it updated with Coffee News!</h3>
+                    <p>Sign up for the latest information right now!</p>
+                </div>
+                <div class="sign-item signs-button">
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
+            <div class="bx footer">
+                <p>Copyright © The Odin Project 2022</p>
+            </div>
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
